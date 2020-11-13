@@ -1,6 +1,6 @@
 # Project Instructions
 
-I decided to use Laravel Lumen for this project, mainly because I love Laravel and Lumen is a simplified, lightweight version of it made specifically for microservices or APIs. The majority of the important code can be found within [`app/Http/Controllers/CommissionController`](app/Http/Controllers/CommissionController)
+I decided to use Laravel Lumen for this project, mainly because I love Laravel and Lumen is a simplified, lightweight version of it made specifically for microservices or APIs. The majority of the important code can be found within [`app/Http/Controllers/CommissionController`](app/Http/Controllers/CommissionController.php)
 
 The models for interaction within the database can be found within [`app/Models`](app/Models) and the database migrations & seeders can be found within [`database/migrations`](database/migrations) and [`database/seeders`](database/seeders)
 
