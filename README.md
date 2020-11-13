@@ -4,6 +4,8 @@ I decided to use Laravel Lumen for this project, mainly because I love Laravel a
 
 The models for interaction within the database can be found within [`app/Models`](app/Models) and the database migrations & seeders can be found within [`database/migrations`](database/migrations) and [`database/seeders`](database/seeders)
 
+If I spent a little longer on this project, I'd probably start implementing authorization structures typically using an api token. I understand how the api_token column within the users table can be used in order to grant users access to the application by default - however, I did not implement any auth features into this API.
+
 1. I used Laravel Valet for my local environment, if you don't have this I'd highly recommend installing & using it :)
 
 2. You'll need to set up the database and get a bit of sample data in there.
